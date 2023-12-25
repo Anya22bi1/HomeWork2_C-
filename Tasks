@@ -50,7 +50,34 @@ int printDiv(int first, int second) //функция деления
 int main()
 {
     {
+        std::cout << "Task #1" << std::endl;
+
+        /*1.1 - константный указатель на константу типа float*/
+        const float value1 = 0.1f;
+        const float* const ptr1 = &value1;
+        /*1.2 -  Объявить тип указателя на long int*/
+        long int* ptr2;
+        /*1.3 - Объявить указатель на double*/
+        double value3 = 0.3;
+        double* ptr3 = &value3;
+        /*1.4 - Объявить указатель на константу типа short int*/
+        const short int value4 = 4;
+        const short int* ptr4 = &value4;
+        /*1.5 - Объявить тип константного указателя на константу типа float*/
+        const float value5 = 0.5f;
+        const float* const ptr5 = &value5;
+        /*1.6 - Объявить тип указателя на константу типа char*/
+        const char* ptr6;
+        /*1.7 - Объявить константный указатель на double*/
+        double value7 = 0.7;
+        double* const ptr = &value7;
+        /*1.8 - Объявить тип константного указателя на unsigned int*/
+        unsigned int value8 = 8;
+        unsigned int* const ptr8 = &value8;
+    }
+    {
         std::cout << "Task #4" << std::endl;
+
         /* №4 */
         int lines = 0; //создаём и инициализируем переменную под строки
         int columns = 0; //создаём и инициализируем переменную под столбцы
@@ -79,6 +106,7 @@ int main()
 
     {
         std::cout << "Task #5" << std::endl;
+
         /* №5 */
         int firstNumber = 0; //создаём и инциализируем параметр 1
         int secondNumber = 0; //создаём и инциализируем параметр 2
